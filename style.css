@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Variables */
+:root {
+  --mobile-size: 375px;
+  --desktop-size: 1440px;
+  --font-size: 15px;
+}
+
+/* Fonts */
+.outfit-normal {
+  margin: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  color: grey;
+}
+
+.outfit-bold {
+  margin: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+/* Layout */
+body {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 497px;
+  width: 320px;
+  padding: 0 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+img {
+  height: 288px;
+  width: 288px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
